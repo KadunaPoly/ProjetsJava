@@ -73,7 +73,7 @@ public class Main {
                         System.out.println("Perdu, on change les roles");
                 }
                 else if ( (bool == 0 && isPair(nmbBilles))|| (bool == 1 && !isPair(nmbBilles))){
-                        System.out.println("gagne ! le joueur "+ j1.getName() +" vole " + nmbBilles + " billes au joeur "+ j2.getName() +".");
+                        System.out.println("gagne ! le joueur "+ j2.getName() +" vole " + nmbBilles + " billes au joeur "+ j1.getName() +".");
                         tranferNmbBilles(j1,j2,nmbBilles);
                 }
         }
